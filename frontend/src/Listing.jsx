@@ -56,7 +56,7 @@ function Listing() {
                                                 {data.gender}
                                             </td>
                                             <td className="px-6 py-4">
-                                                {new Date(data.dob).toLocaleDateString}
+                                                {new Date(data.dob).toLocaleDateString()}
                                             </td>
                                             <td className={`px-6 py-4`}>
                                                 {data.status ? 'Active' : 'Inactive'}
