@@ -11,10 +11,6 @@ const userSchema = mongoose.Schema({
         maxLength: 50,
         require: true,
     },
-    dob: {
-        type: Date,
-        default: Date,
-    },
     status: {
         type: Boolean,
         default: true,
